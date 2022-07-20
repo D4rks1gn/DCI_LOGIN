@@ -1,0 +1,29 @@
+body {
+    background-image: url(images/bg5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+.menu a:hover {
+    text-decoration: none;
+}
