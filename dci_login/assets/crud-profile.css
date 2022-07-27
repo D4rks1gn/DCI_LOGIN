@@ -1,0 +1,36 @@
+body {
+  background-image: url(images/bg5.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.container-md {
+min-width: 200px;
+margin-top: 80px;
+font-weight: bold;
+font-size: 1rem;
+transition: .5s;
+}
+.grid-layouts{
+height: auto;
+}
+table {
+background-color: rgba(0, 0, 0, 0.5);
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+z-index: 3;
+width: 100%;
+}
+tbody tr td{
+width: 34%;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
+color: rgb(255, 255, 255);
+}
+.row {
+height: 40px;
+}
+.bg {
+background-color: ghostwhite;
+border: 1px solid black;
+height: 40px;
+}

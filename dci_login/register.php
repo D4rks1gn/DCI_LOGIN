@@ -27,11 +27,12 @@
 				<label for="" class="form-lable">Password</label>
 			</div>
 
+			<input type="submit" value="Register" class="form-button">
+
 			<div class="create-account">
 				Already Have an Account ?<a href="login.php"> Sign in</a>
 			</div>
 
-			<input type="submit" value="Register" class="form-button">
 
 		</form>
 	</div>

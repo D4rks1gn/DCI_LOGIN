@@ -56,7 +56,7 @@ switch ($_POST['action'])
           session_start();
           $_SESSION['uname'] = $row[1];
 
-          header("location:crud-display.php"); // Welcome page
+          header("location:crud.php"); // Welcome page
         } // End if
         else
         {
