@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
 <div class="grid-layouts container-fluid text-center">
   <div class="row justify-content-md-center">
    <div class="col-lg-4 bg">[Logo]</div>
@@ -34,9 +37,12 @@
       </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <form class="form-inline my-2 my-lg-0" method="GET">
+      <input class="form-control mr-sm-2" type="search" id="search" name="search" placeholder="Search Here" aria-label="Search Here" value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>" required>
+      <button class="btn btn-outline-success my-2 my-sm-0 mr-2" type="submit">Search</button>
+      <a href="http://localhost/dci_login/crud.php" class="btn btn-outline-success my-2 my-sm-0"name="reset">Show all</a>
     </form>
   </div>
 </nav>
+</body>
+</html>
